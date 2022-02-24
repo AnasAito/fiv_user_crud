@@ -1,11 +1,5 @@
-import node from "./node";
-import edge from "./edge";
-import tag from "./tag";
-import type from "./type";
+import user from "./user";
 const Queries = {
-  ...node,
-  ...edge,
-  ...tag,
-  ...type,
+  ...user,
 };
 export default Queries;
